@@ -1,1 +1,11 @@
-body{color:green}
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Merriweather:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: green
+}
