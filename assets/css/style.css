@@ -22,4 +22,29 @@ h1, h2{
 #logo{
     float: left;
     font-size: 250%;
+    letter-spacing: 2px;
+}
+
+/* Navigation links*/ 
+
+#nav-links{
+font-size: 120%;
+letter-spacing: 1px;
+}
+#nav-links a:hover{
+    color:red;
+}
+#nav-links, #logo{
+    line-height: 100px;
+}
+
+#nav-links li{
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#nav-links a{
+    text-decoration: none;
+    color: black;
 }
