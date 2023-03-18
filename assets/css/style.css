@@ -11,7 +11,11 @@ body {
 }
 
 /* Headings and logo */
-h1, h2{
+#header{
+    height: 60px;
+}
+h1,
+h2 {
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -19,60 +23,69 @@ h1, h2{
 
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 250%;
     letter-spacing: 2px;
 }
 
-/* Navigation links*/ 
+/* Navigation links*/
 
-#nav-links{
-font-size: 120%;
-letter-spacing: 1px;
+#nav-links {
+    font-size: 120%;
+    letter-spacing: 1px;
 }
-#nav-links a:hover{
-    color:red;
+
+#nav-links a:hover {
+    color: red;
 }
-.active{border-bottom: 1px solid red;}
-#nav-links, #logo{
+
+.active {
+    border-bottom: 1px solid red;
+}
+
+/* #nav-links,
+#logo {
     line-height: 100px;
-}
+} */
 
-#nav-links li{
+#nav-links li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
 }
 
-#nav-links a{
+#nav-links a {
     text-decoration: none;
     color: black;
 }
 
 /* Hero image and Hero Text*/
 
-#hero-section{
+#hero-section {
     position: relative;
 }
 
-#heroimage{
-   background-image: url(../images/Hero-image.jpg);
-   width: 100%;
+#heroimage {
+    background-image: url(../images/Hero-image.jpg);
+    width: 100%;
     min-height: 90vh;
     background-position: center;
     background-size: cover;
 }
 
-#freetrial{
+#freetrial {
     margin-top: 20px;
 }
 
-#hero-text, h2, h3{
-color: white;
-margin-top: 20px;
+#hero-text,
+h2,
+h3 {
+    color: white;
+    margin-top: 20px;
 }
-#hero-text{
+
+#hero-text {
     font-size: 110%;
     text-align: center;
 
@@ -85,5 +98,5 @@ margin-top: 20px;
     top: 200px;
     left: 40px;
 
-position: absolute;
+    position: absolute;
 }
