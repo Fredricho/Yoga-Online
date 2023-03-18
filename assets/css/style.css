@@ -11,9 +11,11 @@ body {
 }
 
 /* Headings and logo */
-#header{
+#header {
     height: 60px;
+    background-color: coral;
 }
+
 h1,
 h2 {
     font-family: Merriweather, sans-serif;
@@ -78,14 +80,9 @@ h2 {
     margin-top: 20px;
 }
 
-#hero-text,
-h2,
-h3 {
-    color: white;
-    margin-top: 20px;
-}
 
 #hero-text {
+    color: white;
     font-size: 110%;
     text-align: center;
 
@@ -100,3 +97,47 @@ h3 {
 
     position: absolute;
 }
+
+/* Reviews section*/
+
+.review-section {
+    color: black;
+
+
+}
+
+.review-section h2,
+h4 {
+    text-align: center;
+    margin: 5px;}
+
+    .review-section h3{
+        text-align: center;
+}
+.review {
+    display: inline-block;
+    width: 33%;
+    
+}
+
+.review p {
+    width: 20em;
+    background-color: aqua;
+    margin-left: 5em;
+   padding: 5px;
+    border: 3px solid black;
+
+}
+
+
+/* .reviews section h2,
+h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#reviews div p {
+    width: 300px;
+    padding: 10px;
+    border: 3px solid black;
+} */
