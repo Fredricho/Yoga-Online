@@ -29,6 +29,8 @@ h2 {
     float: left;
     font-size: 250%;
     letter-spacing: 2px;
+    margin-top: 5px;
+    margin-left: 15px;
 }
 
 /* Navigation links*/
@@ -36,6 +38,7 @@ h2 {
 #nav-links {
     font-size: 120%;
     letter-spacing: 1px;
+    
 }
 
 #nav-links a:hover {
@@ -55,6 +58,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 #nav-links a {
@@ -141,3 +145,43 @@ h4 {
     padding: 10px;
     border: 3px solid black;
 } */
+
+
+/* Footer section and font awesome*/
+
+footer{
+    background-color: lightgray;
+    height: 60px;
+    width: auto;
+    margin-top: 30px;
+    
+}
+
+#social-media{
+    font-size: 30px;
+   
+}
+
+#insta{
+    color: rgb(246, 1, 140);
+    
+}
+#fb{
+    color: #3b5998;
+    
+}
+#yt{
+    color: #FF0000;
+    
+}
+
+#copyright{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#hello{
+    margin-top: 20px;
+    margin-left: 20px;
+}
