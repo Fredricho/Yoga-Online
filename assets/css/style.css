@@ -12,6 +12,7 @@ body {
 
 /* Headings and logo */
 #header {
+    width: 100%;
     height: 60px;
     background-color: coral;
 }
@@ -35,13 +36,13 @@ h2 {
 
 /* Navigation links*/
 
-#nav-links {
+.menu {
     font-size: 120%;
     letter-spacing: 1px;
     
 }
 
-#nav-links a:hover {
+.menu a:hover {
     color: red;
 }
 
@@ -54,14 +55,29 @@ h2 {
     line-height: 100px;
 } */
 
-#nav-links li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-    margin-top: 20px;
+.menu ul {
+    display: inline-flex;
+    margin: 15px;
 }
 
-#nav-links a {
+
+.menu ul li {
+    list-style: none;
+    margin: 0 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+#sign-btn{
+   padding: 3px;
+   top: 20px;
+   right: 40px;
+   position: absolute;
+   border: 2px solid black;
+}
+
+
+.menu a {
     text-decoration: none;
     color: black;
 }
