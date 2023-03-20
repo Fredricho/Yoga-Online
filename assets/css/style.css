@@ -119,37 +119,33 @@ h2 {
 
 /* Reviews section*/
 
-.review-section {
-    color: black;
-
-
-}
-
-.review-section h2,
-h4 {
-    text-align: center;
-    margin: 5px;
-}
-
-.review-section h3 {
-    text-align: center;
-}
-
 .review {
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+  }
+  .review-section > div{
+    text-align: center;
+  }
+  
+  .review > div {
+    
     width: 33%;
+    margin:10px;
+    
+  }
+  
+  .review > div > h3 {
+   text-align:center;
+    
+  }
+  
+  .review > div > p{
+  border: 2px solid black;
+  padding: 5px;
+  margin: 0 5px 0 5px;}
 
-}
-
-.review p {
-    width: 20em;
-    background-color: aqua;
-    margin-left: 5em;
-    padding: 5px;
-    border: 3px solid black;
-
-}
-
+  
 
 /* .reviews section h2,
 h4 {
@@ -171,13 +167,17 @@ footer{
     height: 10vh;
     width: 100%;
     margin-top: 10vh;
+    display: flex;
 
 }
 
 footer ul {
     
-    display: inline-flex;
+ 
     margin: 25px 0px 0px 20px;
+   
+    justify-content:center;
+  text-align:center;
     
     
 }
@@ -186,28 +186,31 @@ footer ul li {
     list-style: none;
    margin: auto 2vh;
    letter-spacing: 2px;
-   text-align: center;
-    
+   display:inline-block;
+   
     
 }
 
 
 #insta {
     color: rgb(246, 1, 140);
+    
 
 }
 
 #fb {
     color: #3b5998;
+   
     
 
 }
 
 #yt {
     color: #FF0000;
-    
+   
 }
 
 #yt, #fb, #insta{
     font-size: 30px;
+   
 }
