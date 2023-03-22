@@ -238,44 +238,47 @@ footer ul li {
 
 /*      Classes-page      */
 
-.yoga-classes{
-    margin-top: 10vh;
-    min-height: 100vh;
-    text-align: center;
-    
-}
-
-.yoga-outer{
-    display:flex;
-    flex-wrap: wrap;
-    
-}
-
-.yoga-outer>div{
-    width:51%;
-    
-}
-
-
-.yoga-outer>div>p{
-    height: auto;
-    
-}
-
-#hatha{
-    
-}
-
-#yin{
-   
-}
-
-#ashtanga{
-        
+.classes-outer{
     
 }
 
 #choose{
+    margin-top: 10vh;
     text-align: center;
+    margin-bottom: 8vh;
 }
 
+.img-wrapper{max-width:100%;
+    max-height:100%;
+    
+   
+    
+}
+
+.img-wrapper>img{
+    height: 50%;
+    width: 50%;
+}
+
+.text-wrapper{
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    
+    
+    
+   
+}
+#ashtanga{
+    float:left;
+    
+}
+#hatha{
+    float: right;
+    
+}
+#yin{
+    
+    float: left;
+    }
