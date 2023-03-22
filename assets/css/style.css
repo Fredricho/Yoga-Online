@@ -167,6 +167,11 @@ position: absolute;
     margin: 0 5px 0 5px;
 }
 
+.stars{
+    padding: 10px 3px 10px 3px;
+   
+}
+
 
 
 /* .reviews section h2,
@@ -226,9 +231,7 @@ footer ul li {
 
 }
 
-#yt,
-#fb,
-#insta {
+.social-m {
     font-size: 30px;
 
 }
