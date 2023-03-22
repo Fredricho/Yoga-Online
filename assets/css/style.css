@@ -142,7 +142,7 @@ position: absolute;
 .review {
     display: flex;
     flex-wrap: nowrap;
-    height: 300px;
+    
 }
 
 .review-section>div {
@@ -195,7 +195,7 @@ footer {
     width: 100%;
     margin-top: 10vh;
     position: absolute;
-
+    
 }
 
 footer ul {
@@ -235,3 +235,47 @@ footer ul li {
     font-size: 30px;
 
 }
+
+/*      Classes-page      */
+
+.yoga-classes{
+    margin-top: 10vh;
+    min-height: 100vh;
+    text-align: center;
+    
+}
+
+.yoga-outer{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.yoga-outer>div{
+    width:51%;
+    
+}
+
+
+.yoga-outer>div>p{
+    height: auto;
+    
+}
+
+#hatha{
+    
+}
+
+#yin{
+   
+}
+
+#ashtanga{
+        
+    
+}
+
+#choose{
+    text-align: center;
+}
+
