@@ -282,3 +282,21 @@ footer ul li {
     
     float: left;
     }
+
+
+    /* Trial-page */
+
+    #trial-video{
+        margin-top: 8vh;
+        max-width: 50%;
+        height: auto;
+        
+    }
+
+    #trial-video>video{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: relative;
+       
+    }
