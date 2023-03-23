@@ -291,12 +291,31 @@ footer ul li {
         max-width: 50%;
         height: auto;
         
+        
+        
     }
 
     #trial-video>video{
         width: 100vw;
         height: 100vh;
         object-fit: cover;
-        position: relative;
+      position: absolute;
+        
        
+    }
+
+    #video-outer{
+        display: flex;
+    }
+    #input-div{
+        
+        color: black;
+        position: relative;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 60vh;
+        height: 30vh;
+        width: 20vh;
+        
+        
     }
