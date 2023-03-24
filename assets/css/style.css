@@ -6,7 +6,7 @@
 }
 
 body {
-    color: green;
+    color: #3a3a3a;
     font-family: bitter, sans-serif;
 }
 
@@ -23,10 +23,10 @@ header {
 }
 
 h1,
-h2 {
+h2, h3{
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: black;
 
 }
@@ -136,6 +136,17 @@ position: absolute;
 #hero-text h3{
     margin-bottom: 20px;
 }
+
+
+
+/* why-yogaonline section*/
+
+
+
+
+
+
+
 
 /* Reviews section*/
 
