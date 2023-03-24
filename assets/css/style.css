@@ -7,13 +7,13 @@
 
 body {
     color: #3a3a3a;
+    background-color: beige;
     font-family: bitter, sans-serif;
 }
 
 /* Headings and logo */
 header {
-
-    background-color: coral;
+background-color: bisque;
     position: absolute;
     top: 0;
     left: 0;
@@ -91,7 +91,7 @@ h2, h3{
 #hero-section {
     background-image: url(../images/Hero-image.jpg);
     max-width: 100%;
-    height: 90vh;
+    height: 88vh;
     background-size: cover;
     position: relative;
     margin-top: 8vh;
@@ -141,9 +141,21 @@ position: absolute;
 
 /* Why YogaOnline section*/
 
+#why-yogaonline{
+    
+    margin-bottom: 10vh;
+    margin-top: 1px;
+  
+
+}
+
+
+
 #yoga-img{
     max-width:100%;
     max-height:100%;
+    
+    
 }
 
 #yoga-img>img{
@@ -151,6 +163,7 @@ position: absolute;
     width: 50%;
     border-radius: 25%;
     border: 5px solid black;
+    
     
 }
 
@@ -162,18 +175,20 @@ position: absolute;
 
 .review {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    
     
 }
 
 .review-section>div {
     text-align: center;
+    
 }
 
 .review>div {
-
-    width: 33%;
-    margin: 10px;
+margin: auto;
+    
 
 }
 
@@ -185,7 +200,10 @@ position: absolute;
 .review>div>p {
     border: 2px solid black;
     padding: 5px;
-    margin: 0 5px 0 5px;
+   margin-top: 5px;
+    height: 170px;
+    width: 230px;
+    
 }
 
 .stars{
@@ -211,7 +229,7 @@ h4 {
 /* Footer section and font awesome*/
 
 footer {
-    background-color: lightgray;
+    background-color:bisque;
     height: 10vh;
     width: 100%;
     margin-top: 10vh;
@@ -222,6 +240,7 @@ footer {
 footer ul {
 
     display: flex;
+    flex-wrap: wrap;
     margin-top: 3vh;
 
 }
@@ -259,9 +278,7 @@ footer ul li {
 
 /*      Classes-page      */
 
-.classes-outer{
-    
-}
+
 
 #choose{
     margin-top: 10vh;
