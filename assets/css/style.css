@@ -13,7 +13,7 @@ body {
 
 /* Headings and logo */
 header {
-background-color: bisque;
+background-color:bisque;
     position: absolute;
     top: 0;
     left: 0;
@@ -141,19 +141,32 @@ position: absolute;
 
 /* Why YogaOnline section*/
 
-#why-yogaonline{
-    
-    margin-bottom: 10vh;
-    margin-top: 1px;
-  
 
+#yogaonline-inner{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
+
+
+.h3p{
+   
+  text-align: center;
+    margin:auto;
+}
+.h3p>p{
+    height: 130px;
+    width: 300px;
+}
+
+
 
 
 
 #yoga-img{
     max-width:100%;
     max-height:100%;
+    text-align: center;
     
     
 }
@@ -161,9 +174,8 @@ position: absolute;
 #yoga-img>img{
     height: 50%;
     width: 50%;
-    border-radius: 25%;
+    border-radius: 10%;
     border: 5px solid black;
-    
     
 }
 
@@ -187,7 +199,7 @@ position: absolute;
 }
 
 .review>div {
-margin: auto;
+    margin: auto;
     
 
 }
