@@ -172,7 +172,7 @@ position: absolute;
 }
 
 #yoga-img>img{
-    height: 50%;
+    height: auto;
     width: 50%;
     border-radius: 10%;
     border: 5px solid black;
