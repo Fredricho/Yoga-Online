@@ -90,7 +90,7 @@ h3 {
 /* Hero image and Hero Text*/
 
 #hero-section {
-    
+
     /* max-width: 100%; */
     height: auto;
     width: 100%;
@@ -102,11 +102,12 @@ h3 {
 #heroimage {
     background-image: url(../images/hero.jpg);
     height: 80vh;
-    background-size: cover; 
+    background-size: cover;
     width: auto;
+
 }
 
-#freetrial {
+#trial-btn {
     background-color: white;
     text-decoration: none;
     color: black;
@@ -114,33 +115,29 @@ h3 {
     border: 3px solid black;
 
 
-}
-
-#master {
-    color: white;
-    margin-bottom: 10px;
 
 }
 
 
-#hero-text {
 
-    position: absolute;
-    width: 100%;
+#text-outer {
+    display: flex;
+
+}
+#master{color:white;
+font-size: 200%;}
+
+#text-inner {
+    padding-top: 30vh;
+    
     text-align: center;
-    top: 30vh;
-    right: 15vh;
+    margin: auto;
+}
+#text-inner>h3{
+    padding: 0.5rem 0rem 1rem;
     color: white;
-    font-size: 150%;
-
-
-
+    
 }
-
-#hero-text h3 {
-    margin-bottom: 20px;
-}
-
 
 
 /* Why YogaOnline section*/
@@ -209,7 +206,7 @@ h3 {
 
 }
 
-.review>div>h3{
+.review>div>h3 {
     text-align: center;
 }
 
@@ -298,24 +295,24 @@ footer ul li {
 
 
 
-.classes-outer{
-   
-   display: flex;
-   
-   margin: auto;
+.classes-outer {
+
+    display: flex;
+
+    margin: auto;
 }
 
 #choose {
-   margin-top: 10vh; 
+    margin-top: 10vh;
     text-align: center;
     margin-bottom: 8vh;
 }
 
- .img-wrapper {
+.img-wrapper {
     width: 50%;
     height: auto;
 
-} 
+}
 
 .img-wrapper>img {
     height: auto;
@@ -387,25 +384,29 @@ footer ul li {
 /*/ Small devices (576px and down)*/
 @media (max-width: 576px) {
 
-    .classes-outer{
-   
-       flex-wrap: wrap;
-       
-     }
-     #middle-class{
+    .classes-outer {
+
+        flex-wrap: wrap;
+
+    }
+
+    #middle-class {
         flex-flow: wrap-reverse;
-     }
+    }
+
     #logo {
         font-size: 100%;
     }
+
     .img-wrapper,
-    .text-wrapper{
-        width:100%;
+    .text-wrapper {
+        width: 100%;
     }
-    
+
 }
+
 /*/ Medium devices (576px and up)*/
-@media (min-width: 577px) and (max-width: 768px){
+@media (min-width: 577px) and (max-width: 768px) {
     #logo {
         font-size: 150%;
     }
