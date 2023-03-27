@@ -124,19 +124,23 @@ h3 {
     display: flex;
 
 }
-#master{color:white;
-font-size: 200%;}
+
+#master {
+    color: white;
+    font-size: 200%;
+}
 
 #text-inner {
     padding-top: 30vh;
-    
+
     text-align: center;
     margin: auto;
 }
-#text-inner>h3{
+
+#text-inner>h3 {
     padding: 0.5rem 0rem 1rem;
     color: white;
-    
+
 }
 
 
@@ -151,15 +155,14 @@ font-size: 200%;}
 
 
 .h3p {
-
+    height: auto;
+    width: 30vw;
     text-align: center;
     margin: auto;
+    padding-bottom: 3vh;
+    padding-top: 5vh;
 }
 
-.h3p>p {
-    height: 130px;
-    width: 300px;
-}
 
 
 
@@ -402,6 +405,15 @@ footer ul li {
     .text-wrapper {
         width: 100%;
     }
+    .h3p {
+        height: auto;
+        width: 95%;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 3vh;
+        padding-top: 5vh;
+    }
+   
 
 }
 
