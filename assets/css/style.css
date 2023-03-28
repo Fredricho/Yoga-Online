@@ -230,7 +230,7 @@ h4 {
 
 footer {
     background-color: bisque;
-    height: 11vh;
+    height: 10vh;
     width: 100%;
     margin-top: 10vh;
     position: absolute;
@@ -241,7 +241,7 @@ footer ul {
 
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3vh;
+    padding-top: 1.2%; 
 
 }
 
