@@ -6,7 +6,7 @@
 }
 
 body {
-    color:#000;
+    color: #000;
     background-color: beige;
     font-family: Bitter, sans-serif;
 }
@@ -32,8 +32,8 @@ h3 {
 #logo {
     float: left;
     font-size: 240%;
-    
-    
+
+
 }
 
 
@@ -88,7 +88,7 @@ h3 {
     text-decoration: none;
     color: black;
     padding: 2px;
-    border: 3px solid black; 
+    border: 3px solid black;
 }
 
 
@@ -187,14 +187,14 @@ h3 {
 }
 
 .review>div>p {
-   
-   
+
+
     border-style: outset;
     padding: 5px;
     margin-top: 5px;
     height: 140px;
     width: 250px;
-    
+
 
 }
 
@@ -233,7 +233,7 @@ footer ul {
 
     display: flex;
     flex-wrap: wrap;
-    padding-top: 1.2%; 
+    padding-top: 1.2%;
 
 }
 
@@ -315,21 +315,19 @@ footer ul li {
 
 
 #trial-video {
-   
+
     max-width: 100%;
     overflow: hidden;
-    
-} 
+
+}
 
 
 
 #trial-video>video {
     width: 100vw;
     height: 60%;
-    object-fit: cover; 
+    object-fit: cover;
     overflow: hidden;
-
-
 }
 
 #video-outer {
@@ -337,20 +335,50 @@ footer ul li {
 
 }
 
+
 #input-div {
+    display: flex;
+    
+}
+
+
+#input-div>form {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+}
+
+#input-div>form>label,
+#input-div>form>input {
+
+    width: 10rem;
+    height: 1.5rem;
+    margin: auto;
+    text-align: center;
+}
+
+#sbutton {
+    width: 5rem;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* #input-div {
 
     color: black;
     text-align: center;
     margin: auto;
-    margin-bottom: 50vh;
-   
+}
 
-
+#input-div>form{
+    display: block;
 }
 
 #input-div>form>input {
     text-align: center;
-}
+} */
 
 
 
@@ -387,20 +415,22 @@ footer ul li {
         padding-bottom: 3vh;
         padding-top: 5vh;
     }
-    #menu{
+
+    #menu {
         clear: left;
         float: left;
         line-height: 20px;
         margin-left: 27%;
         padding-top: 2px;
-        
+
     }
-    #logo{
+
+    #logo {
         line-height: 20px;
         margin-left: 30%;
         font-size: 150%;
         padding-top: 8px;
-        
+
     }
 
 
@@ -410,6 +440,6 @@ footer ul li {
 @media (min-width: 577px) and (max-width: 768px) {
     #logo {
         font-size: 200%;
-        
+
     }
 }
