@@ -398,6 +398,20 @@ footer ul li {
         padding-bottom: 3vh;
         padding-top: 5vh;
     }
+    #menu{
+        clear: left;
+        float: left;
+        line-height: 20px;
+        margin-left: 27%;
+        padding-top: 2px;
+        
+    }
+    #logo{
+        line-height: 20px;
+        margin-left: 30%;
+        font-size: 150%;
+        padding-top: 8px;
+    }
 
 
 }
@@ -405,6 +419,7 @@ footer ul li {
 /*/ Medium devices (576px and up)*/
 @media (min-width: 577px) and (max-width: 768px) {
     #logo {
-        font-size: 150%;
+        font-size: 200%;
+        
     }
 }
