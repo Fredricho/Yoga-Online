@@ -20,7 +20,7 @@
     </a>
     <nav>
         <ul id="menu">
-            <li><a  href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="classes.html">Classes</a></li>
 
             <li><a class="active" href="trial.html" id="sign-btn" role="button">Sign Up</a></li>
@@ -29,35 +29,39 @@
     </nav>
 </header>
 
-<section>
-    <div>
+<section id="signup-section">
+    
         <div id="video-outer">
-            <div id="trial-video">
+            <div id="trial-video"><h2>Let's get started! Sign up here.</h2>
                 <video loop autoplay muted controls>
                     <source src="assets/video/trial-video1.mp4">
 
 
                 </video>
             </div>
-
-            
-                <div id="input-div">
-                    <form>
-
-                        <label for="fname">First Name:</label>
-                        <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
-
-                        <label for="lname">Last Name:</label>
-                        <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
-                        
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Email"><br><br>
-                      
-
-                        <input type="submit" value="Sign Up">
-                    </form>
         </div>
-    </div>
+
+            <div id="input-div">
+                <form>
+                    
+                    <p>This form will generate an email with log in details to our Yoga platform. You are just seconds
+                        from your class!</p>
+
+
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required><br><br>
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name"required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email"required>
+
+
+                    <button type="submit">Sign Up!</button>
+                </form>
+            </div>
+        
 </section>
 
 

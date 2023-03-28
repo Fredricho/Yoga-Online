@@ -88,10 +88,7 @@ h3 {
     text-decoration: none;
     color: black;
     padding: 2px;
-    border: 3px solid black;
-
-
-
+    border: 3px solid black; 
 }
 
 
@@ -315,21 +312,22 @@ footer ul li {
 
 /* Trial-page */
 
+
+
 #trial-video {
-    /* margin-top: 8vh; */
-    max-width: 50%;
-    height: auto;
-
-
-}
+   
+    max-width: 100%;
+    overflow: hidden;
+    
+} 
 
 
 
 #trial-video>video {
     width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: absolute;
+    height: 60%;
+    object-fit: cover; 
+    overflow: hidden;
 
 
 }
@@ -342,14 +340,10 @@ footer ul li {
 #input-div {
 
     color: black;
-    position: relative;
     text-align: center;
     margin: auto;
     margin-bottom: 50vh;
-    height: 30vh;
-    width: 20vh;
-
-    margin-top: 10vh;
+   
 
 
 }
