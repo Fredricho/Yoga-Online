@@ -6,7 +6,7 @@
 }
 
 body {
-    color: #3a3a3a;
+    color:#000;
     background-color: beige;
     font-family: Bitter, sans-serif;
 }
@@ -32,6 +32,7 @@ h3 {
 #logo {
     float: left;
     font-size: 240%;
+    
     
 }
 
@@ -73,15 +74,6 @@ h3 {
 
 /* Hero image and Hero Text*/
 
-#hero-section {
-
-    /* max-width: 100%; */
-    height: auto;
-    width: 100%;
-    /* position: relative; */
-    /* margin-top: 8vh; */
-
-}
 
 #heroimage {
     background-image: url(../images/hero.jpg);
@@ -198,11 +190,14 @@ h3 {
 }
 
 .review>div>p {
-    border: 1px solid black;
+   
+   
+    border-style: outset;
     padding: 5px;
     margin-top: 5px;
-    height: 150px;
+    height: 140px;
     width: 250px;
+    
 
 }
 
@@ -411,6 +406,7 @@ footer ul li {
         margin-left: 30%;
         font-size: 150%;
         padding-top: 8px;
+        
     }
 
 
