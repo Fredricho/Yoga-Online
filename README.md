@@ -60,12 +60,12 @@ YogaOnline is developed to be easy navigated with a menu top right, footer in th
 ## Existing Features
 
   * ### Navigation Menu
-    * The menu is positioned at the top of all pages and on all devices and is fully responsive to make it good looking to all types of screens. The logo is also clickable and links back to the homepage, which is another option for the user to navigate. 
+    * The menu is positioned at the top of all pages and on all devices and is fully responsive to make it good looking to all type of screens. The logo is also clickable and links back to the homepage, which is another option for the user to navigate. 
 
     IMAGE of nav
 
   * ### Hero-section
-    * Is located directly under the header and it contains a large hero image of a girl how practices and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow. 
+    * Is located directly under the header and it contains a large hero image of a girl how practices Yogs and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow. 
 
   * ### Why YogaOnline section
     * Is based under the hero section and it contains three headings with a short paragraph to give the user a short brief of the classes, teachers and benefits with Yoga. 
@@ -93,3 +93,37 @@ YogaOnline is developed to be easy navigated with a menu top right, footer in th
 * A text with some information before sign up is also on the page, to give the user an explanation of what to expect will happen after sign up. 
 
 ## Future Features
+* To offer live online classes, both in group and indivudual classes with a scheme and a program that the user can follow for maximal progress. 
+* A webshop with Yoga-essentials products, to become a fullservice site.
+*  Some more videos, were the teachers can introduce themselves and the teqniques being tutored.
+* Monthly meetups i diffrent places around the globe, to let the user have the possiblite to connect further. 
+
+## Technologies Used
+* HTML5 - Proides the structure for the site. 
+* CSS - Provides the styling for the site. 
+* Balsamiq - Used to make a sketch of the page. 
+* Gitpod - Used to deploy the site. 
+* Github - Used to host the site and make edits. 
+
+## Testing 
+
+## Code Validation
+
+The site has gone through several test to minimize the risk of unwanted errors. All pages has been validated in W3C html Validator and the W3C CSS Validator. There were a few minor errors, such as no !DOCTYPE and some , after the test all of the errors were fixed. 
+
+Images of the result in HTML validator, for each page:
+
+* ### Home Page
+IMAGE
+
+* ### Classes page
+IMAGE
+* ### Sign Up page
+IMAGE
+
+### CSS Validator results:
+IMAGE
+
+## Responsiveness Test
+* This test were made manually with Google Chrome Devtools, and all of the listed devices in devtools were checked. 
+See Image: 
