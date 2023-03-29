@@ -114,16 +114,42 @@ The site has gone through several test to minimize the risk of unwanted errors. 
 Images of the result in HTML validator, for each page:
 
 * ### Home Page
-IMAGE
+<img src="readimages/noerrors.png">
 
 * ### Classes page
-IMAGE
+<img src="readimages/noerrors.png">
+
 * ### Sign Up page
-IMAGE
+<img src="readimages/noerrors.png">
 
 ### CSS Validator results:
-IMAGE
+<img src="readimages/cssvalidator.png">
 
 ## Responsiveness Test
-* This test were made manually with Google Chrome Devtools, and all of the listed devices in devtools were checked. 
-See Image: 
+* This test were made manually with Google Chrome Devtools, and all of the listed devices in devtools were checked.
+
+Render, images, videos, links, pass on all devices listed on the image below.
+
+  <img  src="readimages/devtools.png" style="height:auto; width:10rem;"> 
+
+
+## Browser Compatibility
+* The YogaOnline site is tested on four diffrent browsers:
+
+ Google Chrome - Pass, no visible errors or bugs and fully responsive.
+ Apple Safari - Pass, no visible errors or bugs and fully responsive.
+ Microsoft Edge - Pass, no visible errors or bugs and fully responsive.
+ Mozilla Firefox - Pass, no visible errors or bugs and fully responsive.
+
+ ## Known Bugs
+ * Resolved
+   * During the html validation a few bugs were shown:
+     * No !DOCTYPE HTML, Open div tag, space between input attributes. These bugs were easily fixed!
+
+* Unresolved - 0
+
+## Additional Testing 
+
+## Lighthouse
+  * The site is tested with Google Chrome Lighthouse, the results is shown on the image below:
+  
