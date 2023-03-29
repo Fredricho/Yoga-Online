@@ -320,7 +320,7 @@ footer ul li {
 #trial-video {
 
     max-width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -328,13 +328,14 @@ footer ul li {
 
 #trial-video>video {
     width: 100vw;
-    height: 60%;
+    height: 30rem;
     object-fit: cover;
     overflow: hidden;
+
 }
 
 #video-outer {
-    display: flex;
+    /* display: flex; */
 
 }
 
@@ -433,7 +434,13 @@ footer ul li {
         margin-left: 30%;
         font-size: 150%;
         padding-top: 8px;
-
+    }
+    #trial-video>video {
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+        overflow: hidden;
+    
     }
 
 
@@ -443,6 +450,12 @@ footer ul li {
 @media (min-width: 577px) and (max-width: 768px) {
     #logo {
         font-size: 200%;
-
+    }
+    #trial-video>video {
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+        overflow: hidden;
+    
     }
 }
