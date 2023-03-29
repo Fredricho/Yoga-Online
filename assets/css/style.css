@@ -118,7 +118,9 @@ h3 {
 
 
 /* Why YogaOnline section*/
-
+#whyyoga{
+    padding-left: 10px;
+}
 
 #yogaonline-inner {
     display: flex;
@@ -173,6 +175,7 @@ h3 {
 
 .review-section>div {
     text-align: center;
+    padding-top: 20px;
 
 }
 
