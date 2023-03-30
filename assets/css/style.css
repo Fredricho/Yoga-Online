@@ -211,7 +211,7 @@ footer ul li {
 }
 
 /*      Classes-page      */
-ƒ .classes-outer {
+ .classes-outer {
     display: flex;
     margin: auto;
 }
@@ -306,7 +306,8 @@ footer ul li {
 
 /*Media Query */
 
-/*/ Small devices (576px and down)*/
+/* Small devices (576px and down) */
+
 @media (max-width: 576px) {
 
     .classes-outer {
@@ -337,7 +338,6 @@ footer ul li {
         line-height: 20px;
         margin-left: 27%;
         padding-top: 2px;
-
     }
 
     #logo {
@@ -356,7 +356,9 @@ footer ul li {
     }
 }
 
-/*/ Medium devices (576px and up)*/
+/* Medium devices (576px and up)*/
+
+
 @media (min-width: 577px) and (max-width: 768px) {
     #logo {
         font-size: 200%;
@@ -382,6 +384,7 @@ footer ul li {
         width: 100%;
     }
 }
+
 
 @media (min-width: 769px) and (max-width: 1170px) {
 
