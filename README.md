@@ -152,4 +152,5 @@ Render, images, videos, links, pass on all devices listed on the image below.
 
 ## Lighthouse
   * The site is tested with Google Chrome Lighthouse, the results is shown on the image below:
-  
+  <img src="readimages/lighthouse.png" style="height:auto; width:40rem;">
+ 
