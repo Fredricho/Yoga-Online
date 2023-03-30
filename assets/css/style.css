@@ -334,11 +334,6 @@ footer ul li {
 
 }
 
-#video-outer {
-    /* display: flex; */
-
-}
-
 
 #input-div {
     display: flex;
@@ -398,7 +393,7 @@ footer ul li {
 
     }
 
-    #middle-class {
+    #middle-hatha {
         flex-flow: wrap-reverse;
     }
 
