@@ -4,10 +4,9 @@ Yogaonline is a website that provides users with online classes of yoga in three
 
 Welcome to YogaOnline: [YogaOnline](https://fredricho.github.io/Yoga-Online/)
 
-<img
-  src="readimages/respons.png"
-  style="">
-  <img
+<img src="readimages/respons1.png"
+  style="height:200px width:200px;">
+
 
 ## Wireframes
 
@@ -69,17 +68,20 @@ YogaOnline is developed to be easy navigated with a menu top right or top, foote
   * ### Navigation Menu
     * The menu is positioned at the top of all pages and on all devices and is fully responsive to make it good looking to all type of screens. The logo is also clickable and links back to the homepage, which is another option for the user to navigate. 
 
-    IMAGE of nav
+    <img src="readimages/nav.png" style="height:autopx width:200px;">
 
   * ### Hero-section
-    * Is located directly under the header and it contains a large hero image of a girl how practices Yogs and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow. 
+    * Is located directly under the header and it contains a large hero image of a girl how practices Yogs and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow. <br>
+<img src="readimages/heros.png" style="height:auto; width:500px;">
 
   * ### Why YogaOnline section
     * Is based under the hero section and it contains three headings with a short paragraph to give the user a short brief of the classes, teachers and benefits with Yoga. 
-    * Right under the paragraphs comes an image of a woman who practices yoga in a living room with a computer by her side and it gives the user a clear vision of how it might look when taking yoga classes online. 
+    * Right under the paragraphs comes an image of a woman who practices yoga in a living room with a computer by her side and it gives the user a clear vision of how it might look when taking yoga classes online. <br>
+    <img src="readimages/why.png" style="height:auto; width:500px;">
 
    * ### Review-section
-     * The review section is there to let the user see what other people think about YogaOnline and to hopefully make them more intrested in a subscription and learning yoga online. 
+     * The review section is there to let the user see what other people think about YogaOnline and to hopefully make them more intrested in a subscription and learning yoga online. <br>
+    <img src="readimages/review.png" style="height:auto; width:500px;">
 
    * ### Footer-section
      * The footer sections holds a mail address, Facebook-, Instagram- ,YouTube-logo taken from fontawesome and copyright.
@@ -87,23 +89,31 @@ YogaOnline is developed to be easy navigated with a menu top right or top, foote
      * All of the links opens up in a new tab and the mail link open a mail.
 
      * It looks the same on all three pages and it's there to let the user connect and reach out to the site. 
+     <img src="readimages/footer.png" style="height:auto; width:500px;">
 
 * ## Classes - page
   * The classes page gives the user information about each form of Yoga that YogaOnline provides, which is Hatha, Yin and Ashtanga.
   * Each paragraph has a suitable image to rescpetively form, beside or underneath depending on the users device.
   * It's made to be both insperational and motivational to encourage the users to start practice Yoga. 
+  <img src="readimages/class1.png" style="height:auto; width:400px;">
+  <img src="readimages/class2.png" style="height:auto; width:400px;">
+  <img src="readimages/class3.png" style="height:auto; width:400px;">
 
 * ## Sign Up - page
  * The last page of the site is the Sign Up - page and it conatins three input elements, Name, Last Name, Email and a submit button. Which will generate an email with deatails to contiune to the content and payment methods. 
- * The background of the page is a video that is set to be auto played, muted and with controls, to give the user full control of the page. 
- * It's a short video with a girl doing some Yoga out in the woods, with her hands up in the sky and against the sign up button.
+ * The first to be viewed is a video that is set to be auto played, muted and with controls, to give the user full control of the page. 
+ * It's a short video with a girl doing some Yoga out in the woods, to make the user inspired.
  * A text with some information before sign up is also on the page, to give the user an explanation of what to expect will happen after sign up. 
+<img src="readimages/sign.png" style="height:auto; width:400px;">
+<img src="readimages/video.png" style="height:auto; width:400px;">
+
 
 ## Future Features
 * To offer live online classes, both in group and indivudual classes with a scheme and a program that the user can follow for maximal progress. 
 * A webshop with Yoga-essentials products, to become a fullservice site.
 *  Some more videos, were the teachers can introduce themselves and the teqniques being tutored.
 * Monthly meetups i diffrent places around the globe, to let the user have the possiblite to connect further. 
+
 
 ## Technologies Used
 * HTML5 - Proides the structure for the site. 
@@ -114,7 +124,7 @@ YogaOnline is developed to be easy navigated with a menu top right or top, foote
 
 ## Testing 
 
-## Code Validation
+### Code Validation
 
 The site has gone through several test to minimize the risk of unwanted errors. All pages has been validated in W3C html Validator and the W3C CSS Validator. There were a few minor errors, such as no !DOCTYPE and some , after the test all of the errors were fixed. 
 
@@ -153,12 +163,63 @@ Render, images, videos, links, pass on all devices listed on the image below.
    * During the html validation a few bugs were shown:
      * No !DOCTYPE HTML, Open div tags, space between input attributes. These bugs were easily fixed!
 
-* Unresolved - 0
+* Unresolved - The first image in the in this readme shows a bug, all of the content is'nt shown on the small phone. I've tried to solve it, but i don't have the time. I i checked the site properly with devtools and such small phones isn't in their tool.
 
 ## Additional Testing 
 
-## Lighthouse
+### Lighthouse
   * The site is tested with Google Chrome Lighthouse, the results is shown on the image below:
   <img src="readimages/lighthouse.png" style="height:auto; width:40rem;">
  
    * This is the results after I compressed the Images and video, which gave me a better result.  
+
+   ## Deployment
+ The site was deployed on Github and how it was made and an image:
+ 1. GitHub > Repository > Settings Tab
+ 2. Go to Pages
+ 3. Source > select Branch to master > Save
+ 4. Wait some time, then a link will come up if the progress were succsessful. 
+
+ <img src="readimages/gith.png" style="height:auto; width:40rem;">
+
+ [Link to repository](https://github.com/Fredricho/Yoga-Online)
+
+  
+  ## To fork the repository on GitHub
+
+A copy of the repository can be made and changes to the copy wont affect the original repository. Below are the steps to fork it:
+
+1. Login in and go to [Link to repository](https://github.com/Fredricho/Yoga-Online)
+2. The fork icon is top right, click that button to make a copy of the original repository.
+
+<img src="readimages/fork.png" style="height:auto; width:40rem;">
+
+## Create a local clone of this project
+
+Here's comes a guide to create a local clone this project:
+
+1. Go to repository
+2. Press code - button
+3. Click the copy button.
+4. In the wanted IDE, Opne Git Bush.
+5. Change the current working directory to the location you prefer to get it cloned to. 
+6. Type git clone, and CTRL-V/Paste the URL from previous step from Github
+7. Hit enter and a clone will be created. 
+
+<img src="readimages/code.png" style="height:auto; width:40rem;">
+
+## Credits
+* GitHub- For make it possible to host my site.
+* Gitpod - For giving me the nessecary tools to develop a site. 
+* ChatGpt - For generated texts and information about Yoga on the classes page. 
+* Balsamiq - For the wireframes.
+* W3schools - For all of the information, was really key for making this site.
+
+## Media
+Photos and video were taken from pexels.com and pixabay.com, thank you!
+
+## Acknowledgements
+This site was made as my first project at Code Instiutute, it is my first aswell and with limited amount of time unfortunately.
+I've learned a lot, so for the next one I will have some more time to give it a proper design and style.
+
+Fredricho 2023
