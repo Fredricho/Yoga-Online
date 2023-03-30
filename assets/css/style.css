@@ -309,14 +309,20 @@ footer ul li {
     #menu {
         clear: left;
         float: left;
-        line-height: 10px;
+        line-height: 8px;
         padding-top: 2px;
         margin-left: 3px;
+    }
+    #menu li {
+        
+        list-style-type: none;
+        padding-right: 5px;
+        font-size: 100%;
     }
 
     #logo {
         line-height: 14px;
-        font-size: 100%;
+        font-size: 80%;
         padding-top: 2px;
         margin-left: 3px;
     }
@@ -351,7 +357,7 @@ footer ul li {
     }
 }
 
-/* xSmall devices (300px and 576px) */
+/* Small devices (300px and 576px) */
 @media (min-width: 300px) and (max-width: 576px) {
 
     .classes-outer {
