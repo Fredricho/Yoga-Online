@@ -306,9 +306,9 @@ footer ul li {
 
 /*Media Query */
 
-/* (min-width: 576px) */
 
-/* Small devices (576px and down) */
+
+/* Small devices (150px and 576px) */
 
 @media (min-width: 150px) and (max-width: 576px) {
 
@@ -358,7 +358,7 @@ footer ul li {
     }
 }
 
-/* Medium devices (576px and up)*/
+/* Medium devices (576px and 768px)*/
 
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -387,8 +387,8 @@ footer ul li {
     }
 }
 
-
-@media (min-width: 769px) and (max-width: 1170px) {
+/* Larges devices (576px and 768px)*/
+@media (min-width: 769px) and (max-width: 1025px) {
 
     .classes-outer {
         flex-wrap: wrap;
