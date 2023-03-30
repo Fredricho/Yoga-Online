@@ -16,7 +16,6 @@ header {
     background-color: bisque;
     height: 8vh;
     width: 100%;
-
 }
 
 h1,
@@ -26,22 +25,15 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: black;
-
 }
 
 #logo {
     padding-left: 5px;
     float: left;
     font-size: 240%;
-
-
 }
 
-
-
 /* Navigation links */
-
-
 #menu,
 #logo {
     line-height: 60px;
@@ -66,7 +58,6 @@ h3 {
     border-bottom: 1px solid red;
 }
 
-
 #menu a {
 
     text-decoration: none;
@@ -74,7 +65,6 @@ h3 {
 }
 
 /* Hero image and Hero Text*/
-
 
 #heroimage {
     background-image: url(../images/herosmall.jpg);
@@ -92,8 +82,6 @@ h3 {
     border: 3px solid black;
 }
 
-
-
 #text-outer {
     display: flex;
 
@@ -106,7 +94,6 @@ h3 {
 
 #text-inner {
     padding-top: 30vh;
-
     text-align: center;
     margin: auto;
 }
@@ -114,9 +101,7 @@ h3 {
 #text-inner>h3 {
     padding: 0.5rem 0rem 1rem;
     color: white;
-
 }
-
 
 /* Why YogaOnline section*/
 #whyyoga {
@@ -130,7 +115,6 @@ h3 {
 
 }
 
-
 .h3p {
     height: auto;
     width: 30vw;
@@ -140,17 +124,10 @@ h3 {
     padding-top: 5vh;
 }
 
-
-
-
-
-
 #yoga-img {
     max-width: 100%;
     max-height: 100%;
     text-align: center;
-
-
 }
 
 #yoga-img>img {
@@ -158,12 +135,7 @@ h3 {
     width: 50%;
     border-radius: 10%;
     border: 5px solid black;
-
 }
-
-
-
-
 
 /* Reviews section*/
 
@@ -171,20 +143,15 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5vh;
-
-
 }
 
 .review-section>div {
     text-align: center;
     padding-top: 20px;
-
 }
 
 .review>div {
     margin: auto;
-
-
 }
 
 .review>div>h3 {
@@ -192,24 +159,16 @@ h3 {
 }
 
 .review>div>p {
-
-
     border-style: outset;
     padding: 5px;
     margin-top: 5px;
     height: 140px;
     width: 250px;
-
-
 }
 
 .stars {
     padding: 10px 3px 10px 3px;
-
 }
-
-
-
 
 /* Footer section and font awesome*/
 
@@ -219,7 +178,6 @@ footer {
     width: 100%;
     margin-top: 10vh;
     position: absolute;
-
 }
 
 footer ul {
@@ -227,44 +185,33 @@ footer ul {
     display: flex;
     flex-wrap: wrap;
     padding-top: 1.2%;
-
 }
 
 footer ul li {
     list-style: none;
     margin: auto;
     letter-spacing: 2px;
-
 }
 
 
 #insta {
     color: rgb(246, 1, 140);
-
-
 }
 
 #fb {
     color: #3b5998;
-
-
-
 }
 
 #yt {
     color: #FF0000;
-
 }
 
 .social-m {
     font-size: 30px;
-
 }
 
 /*      Classes-page      */
-
-.classes-outer {
-
+ƒ .classes-outer {
     display: flex;
     margin: auto;
 }
@@ -278,7 +225,6 @@ footer ul li {
 .img-wrapper {
     width: 50%;
     height: auto;
-
 }
 
 .img-wrapper>img {
@@ -293,17 +239,10 @@ footer ul li {
     text-align: left;
     font-size: large;
     padding: 2rem;
-
 }
 
-
-
-/* Trial-page */
-
-
-
+/* Sign up-page */
 #trial-video {
-
     max-width: 100%;
 }
 
@@ -324,12 +263,9 @@ footer ul li {
     padding: 1rem;
 }
 
-
 #input-div {
     display: flex;
-
 }
-
 
 #input-div>form {
 
@@ -368,16 +304,13 @@ footer ul li {
     letter-spacing: 1px;
 }
 
-
 /*Media Query */
 
 /*/ Small devices (576px and down)*/
 @media (max-width: 576px) {
 
     .classes-outer {
-
         flex-wrap: wrap;
-
     }
 
     #middle-hatha {
@@ -412,7 +345,7 @@ footer ul li {
         margin-left: 30%;
         font-size: 150%;
         padding-top: 8px;
-        padding-left:0;
+        padding-left: 0;
     }
 
     #trial-video>video {
@@ -420,10 +353,7 @@ footer ul li {
         height: auto;
         object-fit: cover;
         overflow: hidden;
-
     }
-
-
 }
 
 /*/ Medium devices (576px and up)*/
@@ -437,7 +367,6 @@ footer ul li {
         height: auto;
         object-fit: cover;
         overflow: hidden;
-
     }
 
     .classes-outer {
@@ -467,5 +396,5 @@ footer ul li {
     .img-wrapper,
     .text-wrapper {
         width: 100%;
-    } 
+    }
 }
