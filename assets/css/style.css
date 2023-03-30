@@ -78,7 +78,7 @@ h3 {
 
 #heroimage {
     background-image: url(../images/herosmall.jpg);
-    height: 80vh;
+    height: 75vh;
     background-size: cover;
     width: auto;
 
@@ -120,7 +120,8 @@ h3 {
 
 /* Why YogaOnline section*/
 #whyyoga {
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-top: 25px;
 }
 
 #yogaonline-inner {
