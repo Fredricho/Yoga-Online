@@ -303,24 +303,22 @@ footer ul li {
 
 /*Media Query */
 
+/* xSmall devices (155px and 299px) */
 
-
-/* xSmall devices (100px and 299px) */
-
-@media (min-width: 155px) and (max-width: 299px){
+@media (min-width: 155px) and (max-width: 299px) {
     #menu {
         clear: left;
-        float: left; 
-        line-height: 16px;
+        float: left;
+        line-height: 10px;
         padding-top: 2px;
-        margin-left: 10%;
+        margin-left: 3px;
     }
 
     #logo {
-        line-height: 16px;
-        font-size: 140%;
-        padding-top: 8px; 
-        margin-left: 11%;
+        line-height: 14px;
+        font-size: 100%;
+        padding-top: 2px;
+        margin-left: 3px;
     }
 
     .classes-outer {
@@ -352,6 +350,7 @@ footer ul li {
         overflow: hidden;
     }
 }
+
 /* xSmall devices (300px and 576px) */
 @media (min-width: 300px) and (max-width: 576px) {
 
@@ -379,7 +378,7 @@ footer ul li {
 
     #menu {
         clear: left;
-        float: left; 
+        float: left;
         line-height: 16px;
         margin-left: 30%;
         padding-top: 5px;
@@ -401,9 +400,7 @@ footer ul li {
     }
 }
 
-/* Medium devices (576px and 768px)*/
-
-
+/* Medium devices (577px and 768px)*/
 @media (min-width: 577px) and (max-width: 768px) {
     #logo {
         font-size: 200%;
@@ -430,7 +427,7 @@ footer ul li {
     }
 }
 
-/* Larges devices (576px and 768px)*/
+/* Larges devices (769px and 1025px)*/
 @media (min-width: 769px) and (max-width: 1025px) {
 
     .classes-outer {
@@ -445,8 +442,9 @@ footer ul li {
     .text-wrapper {
         width: 100%;
     }
+
     #menu,
-#logo {
-    line-height: 56px;
-}
+    #logo {
+        line-height: 56px;
+    }
 }
