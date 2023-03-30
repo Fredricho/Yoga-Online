@@ -303,18 +303,18 @@ footer ul li {
 #trial-video {
 
     max-width: 100%;
-    /* overflow: hidden; */
-
 }
-
-
 
 #trial-video>video {
     width: 100vw;
     height: 30rem;
     object-fit: cover;
     overflow: hidden;
+}
 
+#letsgo{
+    padding: 0.5rem;
+    
 }
 
 #sign-txt {
