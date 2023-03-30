@@ -307,20 +307,20 @@ footer ul li {
 
 /* xSmall devices (100px and 299px) */
 
-@media (min-width: 255px) and (max-width: 299px){
+@media (min-width: 155px) and (max-width: 299px){
     #menu {
         clear: left;
         float: left; 
         line-height: 16px;
         padding-top: 2px;
-        margin-left: 12%;
+        margin-left: 10%;
     }
 
     #logo {
         line-height: 16px;
         font-size: 140%;
         padding-top: 8px; 
-        margin-left: 15%;
+        margin-left: 11%;
     }
 
     .classes-outer {
