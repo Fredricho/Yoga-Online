@@ -211,7 +211,7 @@ footer ul li {
 }
 
 /*      Classes-page      */
- .classes-outer {
+.classes-outer {
     display: flex;
     margin: auto;
 }
@@ -306,9 +306,11 @@ footer ul li {
 
 /*Media Query */
 
+/* (min-width: 576px) */
+
 /* Small devices (576px and down) */
 
-@media (max-width: 576px) {
+@media (min-width: 150px) and (max-width: 576px) {
 
     .classes-outer {
         flex-wrap: wrap;
@@ -334,16 +336,16 @@ footer ul li {
 
     #menu {
         clear: left;
-        float: left;
-        line-height: 20px;
-        margin-left: 27%;
+        float: left; 
+        line-height: 18px;
+        margin-left: 7%;
         padding-top: 2px;
     }
 
     #logo {
-        line-height: 20px;
-        margin-left: 30%;
-        font-size: 150%;
+        line-height: 18px;
+        margin-left: 10%;
+        font-size: 140%;
         padding-top: 8px;
         padding-left: 0;
     }

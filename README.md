@@ -4,9 +4,14 @@ Yogaonline is a website that provides users with online classes of yoga in three
 
 Welcome to YogaOnline: [YogaOnline](https://fredricho.github.io/Yoga-Online/)
 
+<img
+  src="readimages/respons.png"
+  style="">
+  <img
+
 ## Wireframes
 
-These wireframes are created in Balsamiq for the YogaOnline website, one for each page for full-size and mobile-size. There will be some adjustments to the final site, to make it as functional and good looking on all devices. 
+These wireframes were created in Balsamiq for the YogaOnline website, one for each page for full-size and mobile-size. There will be some adjustments to the final sited due to the develop process and time limit.
 <div>
 <img
   src="readimages/Home W.png"
@@ -41,21 +46,23 @@ These wireframes are created in Balsamiq for the YogaOnline website, one for eac
 </div>
 
 ## Site Structure
-The YogaOnline website has three pages, Home, Classes and Sign Up, they are entered thru the naviagtion menu at the top of the page. There is also a link-button "Free Trial" that navigates the user to the sign up-page. 
+
+The YogaOnline website has three pages, [Home](/index.html), [Classes](/classes.html) and [Trial](/trial.html), they are entered thru the naviagtion menu at the top of the page. There is also a link-button "Free Trial" that navigates the user to the sign up-page. 
 
 ## Design Choiches
   * ### Typography
 
-  The chosen fonts for this website were ?Merriweather? for headings and ?Bitter? for body and back up font were sans-serif respectilvey. 
-    * ?Merriweather? were choosen to give the user a warm and harmonic welcome to the site and a font that can be easily read. 
-       * ?Bitter? were choosen to give a relaxed and calm impression to fit in to the Yoga content. 
+  The chosen fonts for this website were Merriweather for headings and Bitter for body and back up font were sans-serif respectilvey. 
+    * Merriweather were choosen to give the user a warm and harmonic welcome to the site and a font that can be easily read
+
+       * Bitter were choosen to give a relaxed and calm impression to fit in to the Yoga content. 
 
 * ### Color Scheme
 
 The choosen color scheme for the site is there to create a warm and laid-back feeling to the users and to be quite minimalistic. To make the user get into the right state of mind which is Yoga. 
 
 ## Features
-YogaOnline is developed to be easy navigated with a menu top right, footer in the bottom which is were the user expect it to be. The information is uncomplicated and there is just one step to Sign Up and to get access to the Classes, sent in an email. The site is supposed to be minimalistic and functional.
+YogaOnline is developed to be easy navigated with a menu top right or top, footer in the bottom which is were the user expect it to be. The information is uncomplicated and there is just one step to Sign Up and to get access to the Classes, sent in an email. The site is supposed to be minimalistic and functional.
 
 ## Existing Features
 
@@ -87,10 +94,10 @@ YogaOnline is developed to be easy navigated with a menu top right, footer in th
   * It's made to be both insperational and motivational to encourage the users to start practice Yoga. 
 
 * ## Sign Up - page
-* The last page of the site is the Sign Up - page and it conatins three input elements, Name, Last Name, Email and a submit button. Which will generate an email with deatails to contiune to the content and payment methods. 
-* The background of the page is a video that is set to be auto played, muted and with controls, to give the user full control of the page. 
-* It's a short video with a girl doing some Yoga out in the woods, with her hands up in the sky and against the sign up button.
-* A text with some information before sign up is also on the page, to give the user an explanation of what to expect will happen after sign up. 
+ * The last page of the site is the Sign Up - page and it conatins three input elements, Name, Last Name, Email and a submit button. Which will generate an email with deatails to contiune to the content and payment methods. 
+ * The background of the page is a video that is set to be auto played, muted and with controls, to give the user full control of the page. 
+ * It's a short video with a girl doing some Yoga out in the woods, with her hands up in the sky and against the sign up button.
+ * A text with some information before sign up is also on the page, to give the user an explanation of what to expect will happen after sign up. 
 
 ## Future Features
 * To offer live online classes, both in group and indivudual classes with a scheme and a program that the user can follow for maximal progress. 
@@ -144,7 +151,7 @@ Render, images, videos, links, pass on all devices listed on the image below.
  ## Known Bugs
  * Resolved
    * During the html validation a few bugs were shown:
-     * No !DOCTYPE HTML, Open div tag, space between input attributes. These bugs were easily fixed!
+     * No !DOCTYPE HTML, Open div tags, space between input attributes. These bugs were easily fixed!
 
 * Unresolved - 0
 
@@ -154,3 +161,4 @@ Render, images, videos, links, pass on all devices listed on the image below.
   * The site is tested with Google Chrome Lighthouse, the results is shown on the image below:
   <img src="readimages/lighthouse.png" style="height:auto; width:40rem;">
  
+   * This is the results after I compressed the Images and video, which gave me a better result.  
