@@ -263,9 +263,6 @@ footer ul li {
     padding: 1rem;
 }
 
-#input-div {
-    display: flex;
-}
 
 #input-div>form {
 
@@ -310,18 +307,49 @@ footer ul li {
 
 /* xSmall devices (100px and 299px) */
 
-@media (min-width: 100px) and (max-width: 299px){
+@media (min-width: 255px) and (max-width: 299px){
     #menu {
         clear: left;
         float: left; 
         line-height: 16px;
         padding-top: 2px;
+        margin-left: 12%;
     }
 
     #logo {
         line-height: 16px;
         font-size: 140%;
         padding-top: 8px; 
+        margin-left: 15%;
+    }
+
+    .classes-outer {
+        flex-wrap: wrap;
+    }
+
+    #middle-hatha {
+        flex-flow: wrap-reverse;
+    }
+
+    .img-wrapper,
+    .text-wrapper {
+        width: 100%;
+    }
+
+    .h3p {
+        height: auto;
+        width: 95%;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 3vh;
+        padding-top: 5vh;
+    }
+
+    #trial-video>video {
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+        overflow: hidden;
     }
 }
 /* xSmall devices (300px and 576px) */
@@ -353,15 +381,15 @@ footer ul li {
         clear: left;
         float: left; 
         line-height: 16px;
-        margin-left: 50%;
-        padding-top: 2px;
+        margin-left: 30%;
+        padding-top: 5px;
     }
 
     #logo {
         line-height: 16px;
-        margin-left: 25%;
+        margin-left: 33%;
         font-size: 140%;
-        padding-top: 8px;
+        padding-top: 10px;
         padding-left: 0;
     }
 
@@ -417,4 +445,8 @@ footer ul li {
     .text-wrapper {
         width: 100%;
     }
+    #menu,
+#logo {
+    line-height: 56px;
+}
 }
