@@ -208,18 +208,6 @@ h3 {
 
 
 
-/* .reviews section h2,
-h4 {
-    text-align: center;
-    margin-top: 20px;
-}
-
-#reviews div p {
-    width: 300px;
-    padding: 10px;
-    border: 3px solid black;
-} */
-
 
 /* Footer section and font awesome*/
 
@@ -273,14 +261,9 @@ footer ul li {
 
 /*      Classes-page      */
 
-
-
-
-
 .classes-outer {
 
     display: flex;
-
     margin: auto;
 }
 
@@ -334,6 +317,11 @@ footer ul li {
 
 }
 
+#sign-txt {
+    text-align: center;
+    padding: 1rem;
+}
+
 
 #input-div {
     display: flex;
@@ -356,6 +344,8 @@ footer ul li {
     height: 1.5rem;
     margin: auto;
     text-align: center;
+    border-radius: 3%;
+    border-color: hwb(60 75% 1%);
 }
 
 #sbutton {
@@ -363,23 +353,14 @@ footer ul li {
     margin: auto;
     margin-top: 10px;
 }
-
-/* #input-div {
-
-    color: black;
-    text-align: center;
-    margin: auto;
+#form{background: linear-gradient(0.5turn, #fafaee,#f6f6cd, #f9f9c5);
+    border-radius: 20%;
+    padding: 5rem;
 }
-
-#input-div>form{
-    display: block;
+#sbutton{background-color: white;
+padding: 3px;
+letter-spacing: 1px;
 }
-
-#input-div>form>input {
-    text-align: center;
-} */
-
-
 
 
 /*Media Query */
