@@ -300,7 +300,13 @@ footer ul li {
     padding: 5rem;
 }
 
-
+/* Signed-Up Page */ 
+#signedup-txt{
+    text-align: center;
+    margin-top: 30vh;
+    height: 30vh;
+    background-color:yellow;
+}
 
 /*Media Query */
 
