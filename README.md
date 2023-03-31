@@ -46,7 +46,7 @@ These wireframes were created in Balsamiq for the YogaOnline website, one for ea
 
 ## Site Structure
 
-The YogaOnline website has four pages, [Home](/index.html), [Classes](/classes.html) , [Trial](/trial.html) and [Signed-Up](/signed-up.html), they are entered thru the navigation menu at the top of the page. There is also a link-button "Free Trial" that navigates the user to the sign up-page. 
+The YogaOnline website has four pages, [Home](/index.html), [Classes](/classes.html) , [Trial](/trial.html) and [Signed-Up](/signed-up.html), which are entered thru the navigation menu at the top of the page. There is also a link-button "Free Trial" that navigates the user to the sign up-page. 
 
 ## Design Choiches
   * ### Typography
@@ -70,7 +70,7 @@ YogaOnline is developed to be easily navigated with a menu top right or top, and
     <img src="readimages/nav.png" style="height:autopx width:200px;">
 
   * ### Hero-section
-    * Is located directly under the header and it contains a large hero image of a girl who practices Yogs and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow.  <br>
+    * Is located directly under the header and it contains a large hero image of a girl who practices Yoga and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow.  <br>
 <img src="readimages/heros.png" style="height:auto; width:500px;">
 
   * ### Why YogaOnline section
@@ -112,14 +112,14 @@ YogaOnline is developed to be easily navigated with a menu top right or top, and
 ## Future Features
 * To offer live online classes, both in group and individual classes with a scheme and a program that the user can follow for maximal progress.
 * A webshop with Yoga-essentials products, to become a full-service site.
-*  Some more videos, were the teachers can introduce themselves and the techniques being tutored.
-* Monthly meetups i different places around the globe, to let the user have the possibility to connect further.
+*  Some more videos, where the teachers can introduce themselves and the techniques being tutored.
+* Monthly meetups in different places around the globe, to give the user the possibility to connect further.
 
 
 ## Technologies Used
-* HTML5 - Proides the structure for the site. 
+* HTML5 - Provides the structure for the site. 
 * CSS - Provides the styling for the site. 
-* Balsamiq - Used to make a sketch of the page. 
+* Balsamiq - Used to sketch the page. 
 * Gitpod - Used to deploy the site. 
 * Github - Used to host the site and make edits. 
 
