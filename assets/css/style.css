@@ -317,8 +317,8 @@ footer ul li {
         clear: left;
         float: left;
         line-height: 8px;
-        padding-top: 2px;
-        margin-left: 3px;
+        padding-top: 10px;
+        margin-left: 25%;
     }
     #menu li {
         
@@ -329,9 +329,9 @@ footer ul li {
 
     #logo {
         line-height: 14px;
-        font-size: 80%;
-        padding-top: 2px;
-        margin-left: 3px;
+        font-size: 100%;
+        padding-top: 5px;
+        margin-left: 30%;
     }
 
     .classes-outer {
