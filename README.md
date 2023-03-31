@@ -46,7 +46,7 @@ These wireframes were created in Balsamiq for the YogaOnline website, one for ea
 
 ## Site Structure
 
-The YogaOnline website has three pages, [Home](/index.html), [Classes](/classes.html) and [Trial](/trial.html), they are entered thru the navigation menu at the top of the page. There is also a link-button "Free Trial" that navigates the user to the sign up-page. 
+The YogaOnline website has four pages, [Home](/index.html), [Classes](/classes.html) , [Trial](/trial.html) and [Signed-Up](/signed-up.html), they are entered thru the navigation menu at the top of the page. There is also a link-button "Free Trial" that navigates the user to the sign up-page. 
 
 ## Design Choiches
   * ### Typography
@@ -70,27 +70,28 @@ YogaOnline is developed to be easily navigated with a menu top right or top, and
     <img src="readimages/nav.png" style="height:autopx width:200px;">
 
   * ### Hero-section
-   * Is located directly under the header and it contains a large hero image of a girl who practices Yogs and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow.  <br>
+    * Is located directly under the header and it contains a large hero image of a girl who practices Yogs and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow.  <br>
 <img src="readimages/heros.png" style="height:auto; width:500px;">
 
   * ### Why YogaOnline section
-   * Is based under the hero section and it contains three headings with a short paragraph to give the user a short brief of the classes, teachers, and benefits of Yoga.
-   * Right under the paragraphs comes an image of a woman who practices yoga in a living room with a computer by her side and it gives the user a clear vision of how it might look when taking yoga classes online.<br>
+    * Is based under the hero section and it contains three headings with a short paragraph to give the user a short brief of the classes, teachers, and benefits of Yoga.
+    * Right under the paragraphs comes an image of a woman who practices yoga in a living room with a computer by her side and it gives the user a clear vision of how it might look when taking yoga classes online.<br><br>
     <img src="readimages/why.png" style="height:auto; width:500px;">
 
    * ### Review-section
-    * The review section is there to let the user see what other people think about YogaOnline and to hopefully make them more interested in a subscription and learning yoga online. <br>
+     * The review section is there to let the user see what other people think about YogaOnline and to hopefully make them more interested in a subscription and learning yoga online. <br><br>
     <img src="readimages/review.png" style="height:auto; width:500px;">
 
    * ### Footer-section
-    * The footer sections hold a mail address, Facebook-, Instagram-, YouTube-logo was taken from font awesome and copyright.
-    * All of the links open up in a new tab and the mail link opens a mail. 
-    * It looks the same on all three pages and it's there to let the user connect and reach out to the site.
+     * The footer sections hold a mail address, Facebook-, Instagram-, YouTube-logo was taken from font awesome and copyright.
+     * All of the links open up in a new tab and the mail link opens a mail. 
+     * It looks the same on all three pages and it's there to let the user connect and reach out to the site.
      <img src="readimages/footer.png" style="height:auto; width:500px;">
 
 * ## Classes - page
  * The classes page gives the user information about each form of Yoga that YogaOnline provides, which is Hatha, Yin, and Ashtanga.
- * Each paragraph has a suitable image to respectively form, beside or underneath depending on the user's device.* It's made to be both inspirational and motivational to encourage the users to start practicing Yoga.
+ * Each paragraph has a suitable image to respectively form, beside or underneath depending on the user's device.
+ * It's made to be both inspirational and motivational to encourage the users to start practicing Yoga.
   <img src="readimages/class1.png" style="height:auto; width:400px;">
   <img src="readimages/class2.png" style="height:auto; width:400px;">
   <img src="readimages/class3.png" style="height:auto; width:400px;">
@@ -103,6 +104,10 @@ YogaOnline is developed to be easily navigated with a menu top right or top, and
 <img src="readimages/sign.png" style="height:auto; width:400px;">
 <img src="readimages/video.png" style="height:auto; width:400px;">
 
+* ## Signed-Up -Page
+ * This is the very last page, when the user has filled in the form and pressed submit he/she will come to the Signed-Up page.
+ * The page is very simple with some text and a link back to the trial-page.<br>
+ <img src="readimages/signed-up.png" style="height:auto; width:400px;">
 
 ## Future Features
 * To offer live online classes, both in group and individual classes with a scheme and a program that the user can follow for maximal progress.
