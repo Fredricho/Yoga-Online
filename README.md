@@ -65,7 +65,7 @@ YogaOnline is developed to be easily navigated with a menu top right or top, and
 ## Existing Features
 
   * ### Navigation Menu
-   * The menu is positioned at the top of all pages and on all devices and is fully responsive to make it good-looking on all types of screens. The logo is also clickable and links back to the homepage, which is another option for the user to navigate. 
+    * The menu is positioned at the top of all pages and on all devices and is fully responsive to make it good-looking on all types of screens. The logo is also clickable and links back to the homepage, which is another option for the user to navigate. 
 
     <img src="readimages/nav.png" style="height:autopx width:200px;">
 
@@ -89,24 +89,24 @@ YogaOnline is developed to be easily navigated with a menu top right or top, and
      <img src="readimages/footer.png" style="height:auto; width:500px;">
 
 * ## Classes - page
- * The classes page gives the user information about each form of Yoga that YogaOnline provides, which is Hatha, Yin, and Ashtanga.
- * Each paragraph has a suitable image to respectively form, beside or underneath depending on the user's device.
- * It's made to be both inspirational and motivational to encourage the users to start practicing Yoga.
+  * The classes page gives the user information about each form of Yoga that YogaOnline provides, which is Hatha, Yin, and Ashtanga.
+  * Each paragraph has a suitable image to respectively form, beside or underneath depending on the user's device.
+  * It's made to be both inspirational and motivational to encourage the users to start practicing Yoga.
   <img src="readimages/class1.png" style="height:auto; width:400px;">
   <img src="readimages/class2.png" style="height:auto; width:400px;">
   <img src="readimages/class3.png" style="height:auto; width:400px;">
 
 * ## Sign Up - page
- * The last page of the site is the Sign Up - page and it contains three input elements, Name, Last Name, Email, and a submit button. Which will generate an email with details to continue to the content and payment methods.
- * The first to be viewed is a video that is set to be auto-played, muted, and with controls, to give the user full control of the page.
- * It's a short video with a girl doing some Yoga out in the woods, to make the user-inspired.
- * A text with some information before signing up is also on the page, to give the user an explanation of what to expect will happen after signing up.
+  * The last page of the site is the Sign Up - page and it contains three input elements, Name, Last Name, Email, and a submit button. Which will generate an email with details to continue to the content and payment methods.
+  * The first to be viewed is a video that is set to be auto-played, muted, and with controls, to give the user full control of the page.
+  * It's a short video with a girl doing some Yoga out in the woods, to make the user-inspired.
+  * A text with some information before signing up is also on the page, to give the user an explanation of what to expect will happen after signing up.<br><br>
 <img src="readimages/sign.png" style="height:auto; width:400px;">
 <img src="readimages/video.png" style="height:auto; width:400px;">
 
 * ## Signed-Up -Page
- * This is the very last page, when the user has filled in the form and pressed submit he/she will come to the Signed-Up page.
- * The page is very simple with some text and a link back to the trial-page.<br>
+  * This is the very last page, when the user has filled in the form and pressed submit he/she will come to the Signed-Up page.
+  * The page is very simple with some text and a link back to the trial-page.<br>
  <img src="readimages/signed-up.png" style="height:auto; width:400px;">
 
 ## Future Features
