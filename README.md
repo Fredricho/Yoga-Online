@@ -1,6 +1,6 @@
 # YOGAONLINE
 
-Yogaonline is a website that provides users with online classes of yoga in three different forms, Yin, Ashtanga and Hatha upon a subscription model of 9.99€/month, with a possible 14-day free trial. The goal of the site is to target people who wants to practice Yoga and make it available at all times from all around the globe. 
+Yogaonline is a website that provides users with online classes of yoga in three different forms, Yin, Ashtanga, and Hatha upon a subscription model of 9.99€/month, with a possible 14-day free trial. The goal of the site is to target people who want to practice Yoga and make it available at all times from all around the globe. 
 
 Welcome to YogaOnline: [YogaOnline](https://fredricho.github.io/Yoga-Online/)
 
@@ -10,7 +10,7 @@ Welcome to YogaOnline: [YogaOnline](https://fredricho.github.io/Yoga-Online/)
 
 ## Wireframes
 
-These wireframes were created in Balsamiq for the YogaOnline website, one for each page for full-size and mobile-size. There will be some adjustments to the final sited due to the develop process and time limit.
+These wireframes were created in Balsamiq for the YogaOnline website, one for each page for full-size and mobile size. There will be some adjustments to the final sited due to the development process and time limit.
 <div>
 <img
   src="readimages/Home W.png"
@@ -46,73 +46,69 @@ These wireframes were created in Balsamiq for the YogaOnline website, one for ea
 
 ## Site Structure
 
-The YogaOnline website has three pages, [Home](/index.html), [Classes](/classes.html) and [Trial](/trial.html), they are entered thru the naviagtion menu at the top of the page. There is also a link-button "Free Trial" that navigates the user to the sign up-page. 
+The YogaOnline website has three pages, [Home](/index.html), [Classes](/classes.html) and [Trial](/trial.html), they are entered thru the navigation menu at the top of the page. There is also a link-button "Free Trial" that navigates the user to the sign up-page. 
 
 ## Design Choiches
   * ### Typography
 
-  The chosen fonts for this website were Merriweather for headings and Bitter for body and back up font were sans-serif respectilvey. 
-    * Merriweather were choosen to give the user a warm and harmonic welcome to the site and a font that can be easily read
-
-       * Bitter were choosen to give a relaxed and calm impression to fit in to the Yoga content. 
+  The chosen fonts for this website were Merriweather for headings and Bitter for the body and the backup fonts were sans-serif respectively.
+  * Merriweather was chosen to give the user a warm and harmonic welcome to the site and a font that can be easily read 
+  * Bitter was chosen to give a relaxed and calm impression to fit into the Yoga content.
 
 * ### Color Scheme
 
-The choosen color scheme for the site is there to create a warm and laid-back feeling to the users and to be quite minimalistic. To make the user get into the right state of mind which is Yoga. 
+The chosen color scheme for the site is there to create a warm and laid-back feeling for the users and to be quite minimalistic. To make the user get into the right state of mind which is Yoga. 
 
 ## Features
-YogaOnline is developed to be easy navigated with a menu top right or top, footer in the bottom which is were the user expect it to be. The information is uncomplicated and there is just one step to Sign Up and to get access to the Classes, sent in an email. The site is supposed to be minimalistic and functional.
+YogaOnline is developed to be easily navigated with a menu top right or top, and a footer at the bottom which is where the user expects it to be. The information is uncomplicated and there is just one step to Sign Up and get access to the Classes, which is sent in an email. The site is supposed to be minimalistic and functional.
 
 ## Existing Features
 
   * ### Navigation Menu
-    * The menu is positioned at the top of all pages and on all devices and is fully responsive to make it good looking to all type of screens. The logo is also clickable and links back to the homepage, which is another option for the user to navigate. 
+   * The menu is positioned at the top of all pages and on all devices and is fully responsive to make it good-looking on all types of screens. The logo is also clickable and links back to the homepage, which is another option for the user to navigate. 
 
     <img src="readimages/nav.png" style="height:autopx width:200px;">
 
   * ### Hero-section
-    * Is located directly under the header and it contains a large hero image of a girl how practices Yogs and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow. <br>
+   * Is located directly under the header and it contains a large hero image of a girl who practices Yogs and a text that explains the concept of the YogaOnlines subscription model even further. The image appearance changes slightly depending on what size it is being viewed on, but the main idea with the picture follows anyhow.  <br>
 <img src="readimages/heros.png" style="height:auto; width:500px;">
 
   * ### Why YogaOnline section
-    * Is based under the hero section and it contains three headings with a short paragraph to give the user a short brief of the classes, teachers and benefits with Yoga. 
-    * Right under the paragraphs comes an image of a woman who practices yoga in a living room with a computer by her side and it gives the user a clear vision of how it might look when taking yoga classes online. <br>
+   * Is based under the hero section and it contains three headings with a short paragraph to give the user a short brief of the classes, teachers, and benefits of Yoga.
+   * Right under the paragraphs comes an image of a woman who practices yoga in a living room with a computer by her side and it gives the user a clear vision of how it might look when taking yoga classes online.<br>
     <img src="readimages/why.png" style="height:auto; width:500px;">
 
    * ### Review-section
-     * The review section is there to let the user see what other people think about YogaOnline and to hopefully make them more intrested in a subscription and learning yoga online. <br>
+    * The review section is there to let the user see what other people think about YogaOnline and to hopefully make them more interested in a subscription and learning yoga online. <br>
     <img src="readimages/review.png" style="height:auto; width:500px;">
 
    * ### Footer-section
-     * The footer sections holds a mail address, Facebook-, Instagram- ,YouTube-logo taken from fontawesome and copyright.
-    
-     * All of the links opens up in a new tab and the mail link open a mail.
-
-     * It looks the same on all three pages and it's there to let the user connect and reach out to the site. 
+    * The footer sections hold a mail address, Facebook-, Instagram-, YouTube-logo was taken from font awesome and copyright.
+    * All of the links open up in a new tab and the mail link opens a mail. 
+    * It looks the same on all three pages and it's there to let the user connect and reach out to the site.
      <img src="readimages/footer.png" style="height:auto; width:500px;">
 
 * ## Classes - page
-  * The classes page gives the user information about each form of Yoga that YogaOnline provides, which is Hatha, Yin and Ashtanga.
-  * Each paragraph has a suitable image to rescpetively form, beside or underneath depending on the users device.
-  * It's made to be both insperational and motivational to encourage the users to start practice Yoga. 
+ * The classes page gives the user information about each form of Yoga that YogaOnline provides, which is Hatha, Yin, and Ashtanga.
+ * Each paragraph has a suitable image to respectively form, beside or underneath depending on the user's device.* It's made to be both inspirational and motivational to encourage the users to start practicing Yoga.
   <img src="readimages/class1.png" style="height:auto; width:400px;">
   <img src="readimages/class2.png" style="height:auto; width:400px;">
   <img src="readimages/class3.png" style="height:auto; width:400px;">
 
 * ## Sign Up - page
- * The last page of the site is the Sign Up - page and it conatins three input elements, Name, Last Name, Email and a submit button. Which will generate an email with deatails to contiune to the content and payment methods. 
- * The first to be viewed is a video that is set to be auto played, muted and with controls, to give the user full control of the page. 
- * It's a short video with a girl doing some Yoga out in the woods, to make the user inspired.
- * A text with some information before sign up is also on the page, to give the user an explanation of what to expect will happen after sign up. 
+ * The last page of the site is the Sign Up - page and it contains three input elements, Name, Last Name, Email, and a submit button. Which will generate an email with details to continue to the content and payment methods.
+ * The first to be viewed is a video that is set to be auto-played, muted, and with controls, to give the user full control of the page.
+ * It's a short video with a girl doing some Yoga out in the woods, to make the user-inspired.
+ * A text with some information before signing up is also on the page, to give the user an explanation of what to expect will happen after signing up.
 <img src="readimages/sign.png" style="height:auto; width:400px;">
 <img src="readimages/video.png" style="height:auto; width:400px;">
 
 
 ## Future Features
-* To offer live online classes, both in group and indivudual classes with a scheme and a program that the user can follow for maximal progress. 
-* A webshop with Yoga-essentials products, to become a fullservice site.
-*  Some more videos, were the teachers can introduce themselves and the teqniques being tutored.
-* Monthly meetups i diffrent places around the globe, to let the user have the possiblite to connect further. 
+* To offer live online classes, both in group and individual classes with a scheme and a program that the user can follow for maximal progress.
+* A webshop with Yoga-essentials products, to become a full-service site.
+*  Some more videos, were the teachers can introduce themselves and the techniques being tutored.
+* Monthly meetups i different places around the globe, to let the user have the possibility to connect further.
 
 
 ## Technologies Used
@@ -126,9 +122,7 @@ YogaOnline is developed to be easy navigated with a menu top right or top, foote
 
 ### Code Validation
 
-The site has gone through several test to minimize the risk of unwanted errors. All pages has been validated in W3C html Validator and the W3C CSS Validator. There were a few minor errors, such as no !DOCTYPE and some , after the test all of the errors were fixed. 
-
-Images of the result in HTML validator, for each page:
+The site has gone through several tests to minimize the risk of unwanted errors. All pages have been validated in W3C html Validator and the W3C CSS Validator. There were a few minor errors, such as no !DOCTYPE and some, after the test all of the errors, were fixed. Images of the result in HTML validator, for each page:
 
 * ### Home Page
 <img src="readimages/noerrors.png">
@@ -143,45 +137,41 @@ Images of the result in HTML validator, for each page:
 <img src="readimages/cssvalidator.png">
 
 ## Responsiveness Test
-* This test were made manually with Google Chrome Devtools, and all of the listed devices in devtools were checked.
-
-Render, images, videos, links, pass on all devices listed on the image below.
+* This test was made manually with Google Chrome Devtools, and all of the listed devices in devtools were checked. Render, images, videos, and links, passes on all devices listed in the image below.
 
   <img  src="readimages/devtools.png" style="height:auto; width:10rem;"> 
 
 
 ## Browser Compatibility
-* The YogaOnline site is tested on four diffrent browsers:
-
- Google Chrome - Pass, no visible errors or bugs and fully responsive.
- Apple Safari - Pass, no visible errors or bugs and fully responsive.
- Microsoft Edge - Pass, no visible errors or bugs and fully responsive.
- Mozilla Firefox - Pass, no visible errors or bugs and fully responsive.
+* The YogaOnline site is tested on four different browsers: 
+Google Chrome - Pass, no visible errors or bugs, and fully responsive.
+Apple Safari - Pass, no visible errors or bugs, and fully responsive.
+Microsoft Edge - Pass, no visible errors or bugs, and fully responsive.
+Mozilla Firefox - Pass, no visible errors or bugs, and fully responsive.
 
  ## Known Bugs
  * Resolved
-   * During the html validation a few bugs were shown:
+   * During the HTML validation a few bugs were shown:
      * No !DOCTYPE HTML, Open div tags, space between input attributes. These bugs were easily fixed!
 
-* Unresolved 
-  * Hero images and sign up video could have been done better, the whole image is'nt shown on all types of screens.
-  * Logo and navlinks is'nt posistioned perfectly on all devices. 
-  * Fix media queries to xSmall devices 270px and down. 
+* Unresolved
+ * Hero images and sign-up video could have been done better, the whole image isn't shown on all types of screens.
+ * Logo and nav links aren't positioned perfectly on all devices.* Fix media queries to xSmall devices 270px and down.
 
 ## Additional Testing 
 
 ### Lighthouse
-  * The site is tested with Google Chrome Lighthouse, the results is shown on the image below:
+  * The site is tested with Google Chrome Lighthouse, the results are shown in the image below:
   <img src="readimages/lighthouse.png" style="height:auto; width:40rem;">
  
-   * This is the results after I compressed the Images and video, which gave me a better result.  
+  * This is the result after I compressed the Images and video, which gave me a better result.  
 
    ## Deployment
  The site was deployed on Github and how it was made and an image:
  1. GitHub > Repository > Settings Tab
  2. Go to Pages
  3. Source > select Branch to master > Save
- 4. Wait some time, then a link will come up if the progress were succsessful. 
+ 4. Wait some time, then a link will appear up if the progress were successful.
 
  <img src="readimages/gith.png" style="height:auto; width:40rem;">
 
@@ -190,7 +180,7 @@ Render, images, videos, links, pass on all devices listed on the image below.
   
   ## To fork the repository on GitHub
 
-A copy of the repository can be made and changes to the copy wont affect the original repository. Below are the steps to fork it:
+A copy of the repository can be made and changes to the copy won't affect the original repository. Below are the steps to fork it:
 
 1. Login in and go to [Link to repository](https://github.com/Fredricho/Yoga-Online)
 2. The fork icon is top right, click that button to make a copy of the original repository.
@@ -199,15 +189,15 @@ A copy of the repository can be made and changes to the copy wont affect the ori
 
 ## Create a local clone of this project
 
-Here's comes a guide to create a local clone this project:
+Here comes a guide to creating a local clone of this project:
 
 1. Go to repository
-2. Press code - button
-3. Click the copy button.
-4. In the wanted IDE, Opne Git Bush.
+2. Press code - button 
+3. Click the copy button. 
+4. In the wanted IDE, Open Git Bush. 
 5. Change the current working directory to the location you prefer to get it cloned to. 
-6. Type git clone, and CTRL-V/Paste the URL from previous step from Github
-7. Hit enter and a clone will be created. 
+6. Type git clone and CTRL-V/Paste the URL from the previous step from Github 
+7. Hit enter and a clone will be created.
 
 <img src="readimages/code.png" style="height:auto; width:40rem;">
 
@@ -220,15 +210,13 @@ Here's comes a guide to create a local clone this project:
 * Love Running project, as a good guide along this project.
 
 ## Content
-The text on Classes-pages is generated by ChatGpt.
-Icons in the footer were taken from FontAwesome and color to it from google. 
-The header section is inspired by the Love Running project.
+The text in Classes-page is generated by ChatGpt. Icons in the footer were taken from FontAwesome and color to it by google. The header section is inspired by the Love Running project.
 
 
 ## Media
 Photos and video were taken from pexels.com and pixabay.com, thank you!
 
 ## Acknowledgements
-This site was made as my first project at Code Instiutute, it is my first site to develop as well. I didn't have the amount of time to develop and design it as I wanted unfortunately. I've learned a lot, so for the next one I will have some more time to give it a proper design and style.
+This site was made as my first project at Code Institute, it is my first site to develop as well. Unfortunately, I didn't have the time to develop and design it as I wanted. I've learned a lot, so for the next one, I will have more time to give it a proper design and style. Throughout the whole project, I've used a 13" MacBook and that's not to be recommended, to the next project I will fix one or two additional screens. 
 
 Fredricho 2023
