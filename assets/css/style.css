@@ -255,12 +255,14 @@ footer ul li {
 
 #letsgo {
     padding: 0.5rem;
-
 }
 
 #sign-txt {
     text-align: center;
     padding: 1rem;
+}
+#sign-txt>h3{
+    padding-bottom: 5px;
 }
 
 
@@ -287,6 +289,9 @@ footer ul li {
     width: 5rem;
     margin: auto;
     margin-top: 10px;
+    background-color: white;
+    letter-spacing: 1px;
+    padding: 3px;
 }
 
 #form {
@@ -295,11 +300,7 @@ footer ul li {
     padding: 5rem;
 }
 
-#sbutton {
-    background-color: white;
-    padding: 3px;
-    letter-spacing: 1px;
-}
+
 
 /*Media Query */
 
